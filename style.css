@@ -41,18 +41,22 @@ nav {
 }
 
 
+
 .nav-links {
     display: flex;
-    align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
-
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    margin: 0;
+    font-size: 14px;
 }
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
 
 
 .nav-links a:hover {
