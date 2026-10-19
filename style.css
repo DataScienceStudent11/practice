@@ -30,10 +30,14 @@ nav {
     font-weight: bold;
 }
 
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
 .nav-links a {
     color: white;
     text-decoration: none;
-    margin-left: 25px;
 }
 
 /* MAIN INTRODUCTION */
