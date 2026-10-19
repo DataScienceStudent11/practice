@@ -56,6 +56,7 @@ nav {
     min-height: 360px;
     padding: 60px 9%;
     background: linear-gradient(135deg, #dbeafe, #eff6ff);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,6 +65,7 @@ nav {
 
 .hero-text {
     max-width: 650px;
+    flex: 1;
 }
 
 .hello {
@@ -86,6 +88,7 @@ nav {
 }
 
 .hero p {
+    color: #1f2937;
     font-size: 17px;
 }
 
