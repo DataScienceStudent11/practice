@@ -12,152 +12,316 @@
 
 <body class="project-page">
 
-    <!-- Navigation -->
+    <!-- NAVIGATION -->
     <nav>
-    <div class="logo">Data Science Portfolio</div>
 
-    <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#skills">Skills</a>
-    </div>
-</nav>
+        <div class="logo">
+            Data Science Portfolio
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#skills">Skills</a>
+        </div>
+
+    </nav>
 
 
-    <!-- Project heading -->
-    <main>
+    <!-- BURGUNDY PROJECT BANNER -->
+    <header class="project-hero">
 
+        <div class="project-hero-text">
+
+            <p class="project-label">
+                DATA SCIENCE PROJECT
+            </p>
+
+            <h1>Bank Marketing Analysis</h1>
+
+            <p>
+                An end-to-end data science project exploring the customer
+                and campaign characteristics associated with the outcome
+                of a bank marketing campaign.
+            </p>
+
+        </div>
+
+        <div class="project-icon">
+            📊
+        </div>
+
+    </header>
+
+
+    <!-- MAIN PROJECT CONTENT -->
+    <main class="project-main">
+
+        <!-- PROJECT OVERVIEW -->
         <section class="project-overview">
 
-            <header class="project-hero">
-
-    <div class="project-hero-text">
-
-        <p class="project-label">DATA SCIENCE PROJECT</p>
-
-        <h1>Bank Marketing Analysis</h1>
-
-        <p>
-            An end-to-end data science project exploring the customer
-            and campaign characteristics associated with the outcome
-            of a bank marketing campaign.
-        </p>
-
-    </div>
-
-    <div class="project-icon">📊</div>
-
-</header>
             <h2>Project Overview</h2>
 
             <p>
-                This project explores a publicly available bank marketing dataset to investigate the relationship between direct marketing activity and customer suscription to a term deposit. 
-                The data relates to telephone-based direct marketing campagins conducted by a Portuguese banking institution. The dataset contains 45,211 observations, with customer characteristics and campaign information used to determine whetehr a client subscribed to a term deposit. The target variable, y, records the subscription outcome as yes or no.
-                I selected this dataset because I work within the financial service sector and wanted to explore a data science problem that was relevant to my professional interests while using publicly available data.
+                This project explores a publicly available bank marketing
+                dataset to investigate the relationship between customer
+                characteristics, direct marketing activity and customer
+                subscription to a term deposit.
             </p>
 
+            <p>
+                The data relates to telephone-based direct marketing campaigns
+                conducted by a Portuguese banking institution. The dataset
+                contains 45,211 observations and 17 variables, including
+                customer characteristics, campaign information and the
+                subscription outcome.
+            </p>
 
-           <section class="research-question">
+            <p>
+                The target variable, <strong>y</strong>, records whether the
+                client subscribed to a term deposit as either yes or no.
+            </p>
 
-    <h2>Research Question</h2>
+            <p>
+                I selected this dataset because I work within the financial
+                services sector and wanted to explore a data science problem
+                relevant to my professional interests while using publicly
+                available and anonymised data.
+            </p>
 
-    <div class="question-box">
-        <p>
-            Which customer and campaign characteristics are associated
-            with whether a customer subscribes to a term deposit following
-            a bank marketing campaign?
-        </p>
-    </div>
-
-</section>
-
-<section class="project-process">
-
-    <h2>Project Process</h2>
-
-    <p>
-        I used a structured process to take the project from raw data through
-        to final findings. I first assessed the quality and structure of the
-        dataset before preparing it for analysis. I then explored patterns
-        within the data, developed an appropriate model and created
-        visualisations to communicate the results and answer the research
-        question.
-    </p>
-
-    <div class="process-container">
-
-        <div class="process-step">
-            <span>01</span>
-            <h3>Raw Public Data</h3>
-        </div>
-
-        <div class="process-step">
-            <span>02</span>
-            <h3>Data Quality & Preparation</h3>
-        </div>
-
-        <div class="process-step">
-            <span>03</span>
-            <h3>Analyse & Model</h3>
-        </div>
-
-        <div class="process-step">
-            <span>04</span>
-            <h3>Visualise</h3>
-        </div>
-
-        <div class="process-step">
-            <span>05</span>
-            <h3>Explain Findings</h3>
-        </div>
-
-    </div>
-
-</section>
+        </section>
 
 
-        <!-- We'll build these sections later -->
+        <!-- RESEARCH QUESTION -->
+        <section class="research-question">
 
-        <section>
+            <h2>Research Question</h2>
+
+            <div class="question-box">
+
+                <p>
+                    Which customer and campaign characteristics are associated
+                    with whether a customer subscribes to a term deposit
+                    following a bank marketing campaign?
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT PROCESS -->
+        <section class="project-process">
+
+            <h2>Project Process</h2>
+
+            <p>
+                I used a structured process to take the project from raw data
+                through to final findings. I first assessed the quality and
+                structure of the dataset before preparing it for analysis.
+                I then explored patterns within the data, developed an
+                appropriate model and created visualisations to communicate
+                the results and answer the research question.
+            </p>
+
+            <div class="process-container">
+
+                <div class="process-step">
+                    <span>01</span>
+                    <h3>Raw Public Data</h3>
+                </div>
+
+                <div class="process-step">
+                    <span>02</span>
+                    <h3>Data Quality &amp; Preparation</h3>
+                </div>
+
+                <div class="process-step">
+                    <span>03</span>
+                    <h3>Analyse &amp; Model</h3>
+                </div>
+
+                <div class="process-step">
+                    <span>04</span>
+                    <h3>Visualise</h3>
+                </div>
+
+                <div class="process-step">
+                    <span>05</span>
+                    <h3>Explain Findings</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RAW PUBLIC DATA -->
+        <section id="raw-data" class="project-content-section">
+
             <h2>01. Raw Public Data</h2>
-            <p>Coming soon...</p>
+
+            <p>
+                This section will introduce the source, purpose and structure
+                of the original dataset.
+            </p>
+
+            <a
+                class="project-link"
+                href="https://archive.ics.uci.edu/dataset/222/bank+marketing"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View the Original Dataset
+            </a>
+
+            <div class="content-placeholder">
+                <p>
+                    A preview of the raw dataset and an explanation of its
+                    variables will be added here.
+                </p>
+            </div>
+
         </section>
 
-        <section>
-            <h2>02. Data Quality & Preparation</h2>
-            <p>Coming soon...</p>
+
+        <!-- DATA QUALITY -->
+        <section id="data-quality" class="project-content-section">
+
+            <h2>02. Data Quality &amp; Preparation</h2>
+
+            <p>
+                This section will explain the checks completed to assess the
+                quality and structure of the data before analysis.
+            </p>
+
+            <div class="content-placeholder">
+                <p>
+                    Data-quality checks, preparation decisions and supporting
+                    screenshots will be added here.
+                </p>
+            </div>
+
         </section>
 
-        <section>
+
+        <!-- EXPLORATORY ANALYSIS -->
+        <section id="analysis" class="project-content-section">
+
             <h2>03. Exploratory Data Analysis</h2>
-            <p>Coming soon...</p>
+
+            <p>
+                This section will explore patterns and relationships between
+                the customer characteristics, campaign characteristics and
+                subscription outcome.
+            </p>
+
+            <div class="content-placeholder">
+                <p>
+                    Exploratory analysis and supporting charts will be added
+                    here.
+                </p>
+            </div>
+
         </section>
 
-        <section>
+
+        <!-- MODELLING -->
+        <section id="modelling" class="project-content-section">
+
             <h2>04. Modelling</h2>
-            <p>Coming soon...</p>
+
+            <p>
+                This section will describe the modelling approach and explain
+                how the model was evaluated.
+            </p>
+
+            <div class="content-placeholder">
+                <p>
+                    The modelling process and evaluation results will be added
+                    here.
+                </p>
+            </div>
+
         </section>
 
-        <section>
+
+        <!-- VISUALISATIONS -->
+        <section id="visualisations" class="project-content-section">
+
             <h2>05. Visualisations</h2>
-            <p>Coming soon...</p>
+
+            <p>
+                This section will present the key visualisations produced
+                during the analysis.
+            </p>
+
+            <div class="content-placeholder">
+                <p>
+                    Final analytical visualisations will be added here.
+                </p>
+            </div>
+
         </section>
 
-        <section>
+
+        <!-- KEY FINDINGS -->
+        <section id="findings" class="project-content-section">
+
             <h2>06. Key Findings</h2>
-            <p>Coming soon...</p>
+
+            <p>
+                This section will summarise the main findings and explain how
+                the results answer the research question.
+            </p>
+
+            <div class="content-placeholder">
+                <p>
+                    Key findings and conclusions will be added here.
+                </p>
+            </div>
+
         </section>
 
-        <section>
+
+        <!-- REFLECTION -->
+        <section id="reflection" class="project-content-section">
+
             <h2>07. Reflection</h2>
-            <p>Coming soon...</p>
+
+            <p>
+                This section will reflect on the project process, limitations,
+                learning and potential improvements.
+            </p>
+
+            <div class="content-placeholder">
+                <p>
+                    Project reflection and next steps will be added here.
+                </p>
+            </div>
+
         </section>
 
 
-        <a href="index.html">← Back to Portfolio</a>
+        <!-- BACK TO PORTFOLIO -->
+        <div class="back-link-container">
+
+            <a class="back-button" href="index.html">
+                ← Back to Portfolio
+            </a>
+
+        </div>
 
     </main>
+
+
+    <!-- FOOTER -->
+    <footer class="project-footer">
+
+        <p>Data Science Portfolio</p>
+
+    </footer>
 
 </body>
 
