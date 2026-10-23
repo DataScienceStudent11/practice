@@ -1,15 +1,12 @@
 /* GENERAL */
 
-
 * {
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
-
 
 body {
     margin: 0;
@@ -20,10 +17,7 @@ body {
 }
 
 
-
-
 /* TOP NAVIGATION */
-
 
 nav {
     background-color: #831843;
@@ -34,13 +28,10 @@ nav {
     align-items: center;
 }
 
-
 .logo {
     font-size: 20px;
     font-weight: bold;
 }
-
-
 
 .nav-links {
     display: flex;
@@ -54,20 +45,11 @@ nav {
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
-}
-
-
-
-.nav-links a:hover {
     color: #93c5fd;
 }
 
 
-
-
 /* TOP BANNER */
-
 
 .hero {
     min-height: 360px;
@@ -79,19 +61,17 @@ nav {
     gap: 50px;
 }
 
-
 .hero-text {
     max-width: 650px;
 }
 
-
+/* HELLO MY NAME IS - BLACK */
 .hello {
-    color: #2563eb;
+    color: #000000;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
 }
-
 
 .hero h1 {
     color: #831843;
@@ -99,23 +79,18 @@ nav {
     margin: 0;
 }
 
-
 .hero h2 {
     color: #475569;
     font-size: 24px;
     margin-top: 10px;
 }
 
-
 .hero p {
     font-size: 17px;
 }
 
 
-
-
 /* AVATAR */
-
 
 .avatar {
     width: 170px;
@@ -131,10 +106,7 @@ nav {
 }
 
 
-
-
 /* VIEW PROJECTS BUTTON */
-
 
 .button {
     display: inline-block;
@@ -152,22 +124,17 @@ nav {
 }
 
 
-
-
 /* PAGE SECTIONS */
-
 
 main {
     display: block;
 }
-
 
 section {
     display: block;
     width: 100%;
     padding: 55px 9%;
 }
-
 
 section h2 {
     color: #831843;
@@ -176,32 +143,24 @@ section h2 {
 }
 
 
-
-
 /* ABOUT */
-
 
 #about {
     background-color: #f7f9fc;
 }
 
 
-
-
 /* PROJECTS */
-
 
 #projects {
     background-color: #f7f9fc;
 }
-
 
 .project-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-
 
 .project {
     background-color: white;
@@ -210,11 +169,9 @@ section h2 {
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
 }
 
-
 .project h3 {
     color: #831843;
 }
-
 
 .project-link {
     color: #db2777;
@@ -222,23 +179,22 @@ section h2 {
     font-weight: bold;
 }
 
-
+.project-link:hover {
+    text-decoration: underline;
+}
 
 
 /* SKILLS */
 
-
 #skills {
     background-color: #f7f9fc;
 }
-
 
 .skills {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
 }
-
 
 .skills span {
     background-color: #fce7f3;
@@ -249,10 +205,7 @@ section h2 {
 }
 
 
-
-
 /* FOOTER */
-
 
 footer {
     background-color: #831843;
@@ -262,35 +215,30 @@ footer {
 }
 
 
-
-
 /* SMALL SCREENS */
 
-
 @media (max-width: 800px) {
-
 
     nav {
         flex-direction: column;
         gap: 12px;
     }
 
-
     .hero {
         flex-direction: column;
         text-align: center;
     }
 
-
     .hero h1 {
         font-size: 36px;
     }
-
 
     .project-container {
         grid-template-columns: 1fr;
     }
 }
+
+
 /* =========================================
    PROJECT 1 PAGE OVERRIDES
    ========================================= */
@@ -340,11 +288,9 @@ body.project-page {
     justify-content: space-between !important;
 }
 
-
 .project-page .project-hero-text {
     max-width: 750px;
 }
-
 
 .project-page .project-hero h1 {
     color: #ffffff !important;
@@ -352,12 +298,10 @@ body.project-page {
     margin: 8px 0 15px 0 !important;
 }
 
-
 .project-page .project-hero p {
     color: #ffffff !important;
     margin: 0 0 10px 0 !important;
 }
-
 
 .project-page .project-label {
     color: #f7c7d9 !important;
@@ -365,7 +309,6 @@ body.project-page {
     font-weight: bold;
     letter-spacing: 2px;
 }
-
 
 .project-page .project-icon {
     font-size: 75px;
@@ -376,7 +319,6 @@ body.project-page {
 
 .project-page main,
 .project-page .project-main {
-
     background: #fff8fb !important;
     background-color: #fff8fb !important;
 
@@ -394,7 +336,6 @@ body.project-page {
 
 .project-page main section,
 .project-page .project-main section {
-
     background: transparent !important;
 
     min-height: 0 !important;
@@ -414,14 +355,11 @@ body.project-page {
 .project-page main h1,
 .project-page main h2,
 .project-page main h3 {
-
     opacity: 1 !important;
     visibility: visible !important;
 }
 
-
 .project-page main h2 {
-
     color: #8b1e4f !important;
 
     font-size: 28px !important;
@@ -431,9 +369,7 @@ body.project-page {
     padding: 0 !important;
 }
 
-
 .project-page main h3 {
-
     color: #8b1e4f !important;
 }
 
@@ -441,7 +377,6 @@ body.project-page {
 /* PARAGRAPHS */
 
 .project-page main p {
-
     color: #222222 !important;
 
     max-width: 900px;
@@ -456,7 +391,6 @@ body.project-page {
 /* RESEARCH QUESTION */
 
 .project-page .question-box {
-
     background: #ffffff !important;
 
     border-left: 5px solid #8b1e4f;
@@ -472,9 +406,7 @@ body.project-page {
     box-shadow: 0 4px 15px rgba(80, 20, 45, 0.08);
 }
 
-
 .project-page .question-box p {
-
     color: #222222 !important;
 
     font-size: 18px;
@@ -488,7 +420,6 @@ body.project-page {
 /* PROJECT PROCESS */
 
 .project-page .process-container {
-
     display: grid !important;
 
     grid-template-columns: repeat(5, 1fr);
@@ -498,9 +429,7 @@ body.project-page {
     margin-top: 25px !important;
 }
 
-
 .project-page .process-step {
-
     background: #ffffff !important;
 
     color: #222222 !important;
@@ -516,17 +445,13 @@ body.project-page {
     box-shadow: 0 4px 15px rgba(80, 20, 45, 0.08);
 }
 
-
 .project-page .process-step span {
-
     color: #c04a7a !important;
 
     font-weight: bold;
 }
 
-
 .project-page .process-step h3 {
-
     color: #8b1e4f !important;
 
     font-size: 16px !important;
@@ -538,7 +463,6 @@ body.project-page {
 /* PLACEHOLDER BOXES */
 
 .project-page .content-placeholder {
-
     background: #f7e8ee !important;
 
     color: #222222 !important;
@@ -557,7 +481,6 @@ body.project-page {
 
 .project-page .project-link,
 .project-page .back-button {
-
     display: inline-block;
 
     background: #8b1e4f !important;
@@ -575,7 +498,6 @@ body.project-page {
 /* BACK BUTTON */
 
 .project-page .back-link-container {
-
     padding: 30px 0 !important;
 }
 
@@ -583,7 +505,6 @@ body.project-page {
 /* FOOTER */
 
 .project-page .project-footer {
-
     background: #8b1e4f !important;
 
     color: #ffffff !important;
@@ -606,9 +527,7 @@ body.project-page {
         flex-direction: column;
         align-items: flex-start !important;
     }
-
 }
-
 
 @media (max-width: 600px) {
 
@@ -619,5 +538,4 @@ body.project-page {
     .project-page .project-hero h1 {
         font-size: 36px !important;
     }
-
 }
