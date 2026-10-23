@@ -554,3 +554,31 @@ body.project-page {
         font-size: 36px !important;
     }
 }
+.about-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+.about-card p {
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.about-skills span {
+    background-color: #fbeaf2;
+    color: #8b1e4a;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+}
