@@ -106,21 +106,36 @@ nav {
 }
 
 
-/* VIEW PROJECTS BUTTON */
+/* VIEW MY PROJECTS BUTTON */
 
 .button {
     display: inline-block;
     margin-top: 15px;
-    padding: 12px 22px;
-    background-color: #db2777;
-    color: white;
+    padding: 12px 24px;
+
+    background-color: #831843;
+    color: #ffffff;
+
     text-decoration: none;
-    border-radius: 8px;
     font-weight: bold;
+    font-size: 15px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 4px 12px rgba(131, 24, 67, 0.20);
+
+    transition: background-color 0.3s ease,
+                transform 0.2s ease,
+                box-shadow 0.3s ease;
 }
 
 .button:hover {
-    background-color: #be185d;
+    background-color: #db2777;
+    color: #ffffff;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 16px rgba(131, 24, 67, 0.30);
 }
 
 
